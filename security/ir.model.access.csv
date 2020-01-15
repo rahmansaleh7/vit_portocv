@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vit_portocv_vit_portocv,vit_portocv.vit_portocv,model_vit_portocv_vit_portocv,,1,0,0,0
