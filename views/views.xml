@@ -3,179 +3,205 @@
 
     <template id="index">
       <html>
-        <head>
-          <title>Web Portofolio</title>
-          <meta charset="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          
-          <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+      <head>
+      <title>About</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="vCard template project" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="/vit_portocv/static/styles/bootstrap-4.1.2/bootstrap.min.css" />
+      <link href="/vit_portocv/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="/vit_portocv/static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.css" />
+      <link rel="stylesheet" type="text/css" href="/vit_portocv/static/styles/main_styles.css" />
+      <link rel="stylesheet" type="text/css" href="/vit_portocv/static/styles/responsive.css" />
+      </head>
+      <body>
 
-          <link rel="stylesheet" href="/vit_portocv/static/css/open-iconic-bootstrap.min.css" />
-          <link rel="stylesheet" href="/vit_portocv/static/css/animate.css" />
-          
-          <link rel="stylesheet" href="/vit_portocv/static/css/owl.carousel.min.css" />
-          <link rel="stylesheet" href="/vit_portocv/static/css/owl.theme.default.min.css" />
-          <link rel="stylesheet" href="/vit_portocv/static/css/magnific-popup.css" />
+      <div class="super_container">
+        
+        <!-- Header -->
 
-          <link rel="stylesheet" href="/vit_portocv/static/css/aos.css" />
-
-          <link rel="stylesheet" href="/vit_portocv/static/css/ionicons.min.css" />
-          
-          <link rel="stylesheet" href="/vit_portocv/static/css/flaticon.css" />
-          <link rel="stylesheet" href="/vit_portocv/static/css/icomoon.css" />
-          <link rel="stylesheet" href="/vit_portocv/static/css/style.css" />
-        </head>
-        <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-          
-          
-          <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
-            <div class="container">
-              <a class="navbar-brand" href="index.html">N</a>
-              <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="oi oi-menu"></span> Menu
-              </button>
-
-              <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav nav ml-auto">
-                  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-                  <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                </ul>
+        <header class="header">
+          <div class="header_content d-flex flex-row align-items-center justify-content-start">
+            <div class="logo">Smith<span>.</span>CV</div>
+            <div class="main_nav d-flex flex-row align-items-end justify-content-start">
+              <ul class="d-flex flex-row align-items-center justify-content-start">
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <div class="header_button ml-auto">
+                <a href="#">Available for freelance work</a>
+                <div class="d-flex flex-column align-items-center justify-content-center"><img src="/vit_portocv/static/images/download.png" alt=""/></div>
               </div>
             </div>
-          </nav>
+            <!-- Menu -->
+        <div class="menu">
+          <div class="menu_content d-flex flex-row align-items-start justify-content-end">
+            <div class="hamburger ml-auto">menu</div>
+            <div class="menu_nav text-right">
+              <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          </div>
+        </header>
 
-          <section id="home-section" class="hero">
-            
-            <div class="home-slider  owl-carousel">
-              <div class="slider-item">
-                <div class="overlay"></div>
-                <div class="container">
-                  <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-                    <div class="one-third order-md-last img" t-attf-style="background-image: url(data:image/*;base64,{{employee_id.image}})">
-                      <div class="overlay"></div>
-                    </div>
-                    <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                      <!-- <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-                        <span class="ion-ios-play play"></span>
-                      </a> -->
-                      <div class="text">
-                        <span class="subheading">Hello</span>
-                        <h1 class="mb-4 mt-3">I'm <span t-field="employee_id.name"/></h1>
-                        <h2 class="mb-4"><span t-field="employee_id.job_id"/></h2>
-                        <p><a href="#" class="btn-custom">Hire me</a></p>
-                      </div>
-                    </div>
+        <div class="content_container">
+          <div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+
+            <!-- General Information -->
+            <div class="general_info d-flex flex-xl-column flex-md-row flex-column">
+              <div>
+                <div class="general_info_image">
+                  <div class="background_image" style="background-image:url(/vit_portocv/static/images/smith.jpg)"></div>
+                  <div class="header_button_2">
+                    <a href="#">Available for freelance work</a>
+                    <div class="d-flex flex-column align-items-center justify-content-center"><img src="/vit_portocv/static/images/download.png" alt=""/></div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
+              <div class="general_info_content">
+                <div class="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
+                  <div class="general_info_title">General Information</div>
+                  <ul class="general_info_list">
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="/vit_portocv/static/images/icon_1.png" alt=""/></div>
+                      <div class="general_info_text">Name: <span>Jeremy Smith</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"></div>
+                      <div class="general_info_text">Location: <span>London UK</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="/vit_portocv/static/images/icon_2.png" alt=""/></div>
+                      <div class="general_info_text">Date of Birth: <span>August 25, 1991</span></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="/vit_portocv/static/images/icon_3.png" alt=""/></div>
+                      <div class="general_info_text"><a href="mailto:contact@linque.com?subject=Job_Inquiry">contactme@templatename.com</a></div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="/vit_portocv/static/images/icon_4.png" alt=""/></div>
+                      <div class="general_info_text">+76 6524 567862 763</div>
+                    </li>
+                    <li class="d-flex flex-row align-items-center justify-content-start">
+                      <div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="/vit_portocv/static/images/icon_5.png" alt=""/></div>
+                      <div class="general_info_text"><a href="mailto:contact@linque.com">www.mytemplatename.com</a></div>
+                    </li>
+                  </ul>
 
-          <section class="ftco-about ftco-counter img ftco-section" id="about-section">
-            <div class="bg-info">
-            <div class="container">
-              <h2 class="display-4 font-italic"><span t-field="employee_id.name"/></h2>
-              <div class="row">
-                <div class="col-4">                 
-                    <div class="lead">
-                      <div class="card" style="width: 18rem;">
-                        <img t-attf-src="data:image/*;base64,{{employee_id.image}}" class="card-img-top" alt="..." />
-                          <div class="card-body">
-                            <p class="card-text">
-                            <p>
-                              <div class="text-primary">Job :</div>
-                              <div><span t-field="employee_id.job_id"/></div>
-                            </p>
-                            <p>
-                              <div class="text-primary">Departement :</div>
-                              <div><span t-field="employee_id.department_id"/></div>
-                            </p>
-                            </p>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                
-
-                <div class="col-4">
-                  <table class="table table-borderless text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                        <th scope="col"></th>
-                      </tr>
-                    </thead>
-                    <tbody class="lead text-white">
-                      <tr>
-                        <th scope="row"><i class="icon-female"></i></th>
-                        <td><span t-field="employee_id.gender"/></td>                      
-                      </tr>
-                      <tr>
-                        <th scope="row"><i class="icon-heart"></i></th>
-                        <td><span t-field="employee_id.marital"/></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><i class="icon-building"></i></th>
-                        <td><span t-field="employee_id.work_location"/></td>                      
-                      </tr>
-                      <tr>
-                        <th scope="row"><i class="icon-envelope"></i></th>
-                        <td><span t-field="employee_id.work_email"/></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><i class="icon-dashboard"></i></th>
-                        <td><span t-field="employee_id.resource_calendar_id"/></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>                     
-                </div>
-            </div>
-            </div>
-            <div class="container">
-                  <div class="ftco-footer-widget mb-1">
-                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                      <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                      <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                      <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                      <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-                      <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
+                  <!-- Social -->
+                  <div class="social_container">
+                    <ul class="d-flex flex-row align-items-start justify-content-start">
+                      <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                     </ul>
                   </div>
-              </div>             
-          </section>        
-        
-        <!-- loader -->
-        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Main Content -->
+
+            <div class="main_content">
+              <div class="main_title_container d-flex flex-column align-items-start justify-content-end">
+                <div class="main_subtitle">HTML5 CSS Developer</div>
+                <div class="main_title">Jeremy Smith</div>
+              </div>
+              <div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
+                <div class="about_content">
+                  <div class="about_title">Description</div>
+                  <div class="about_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit. Proin et faucibus diam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit.</p>
+                  </div>
+
+                  <!-- Loaders -->
+
+                  <div class="loaders clearfix">
+
+                    <!-- Loader -->
+                    <div class="loader_container">
+                      <div class="loader" data-perc="0.75"></div>
+                      <div class="loader_content text-center">
+                        <div class="loader_title">intuition</div>
+                        <div class="loader_subtitle">Etiam nec odio vestibulum est.</div>
+                      </div>
+                    </div>
+                    
+                    <!-- Loader -->
+                    <div class="loader_container">
+                      <div class="loader" data-perc="0.83"></div>
+                      <div class="loader_content text-center">
+                        <div class="loader_title">creativity</div>
+                        <div class="loader_subtitle">Odio vestibulum est mattis.</div>
+                      </div>
+                    </div>
+
+                    <!-- Loader -->
+                    <div class="loader_container">
+                      <div class="loader" data-perc="0.25"></div>
+                      <div class="loader_content text-center">
+                        <div class="loader_title">pure luck</div>
+                        <div class="loader_subtitle">Vestibulum est mattis effic.</div>
+                      </div>
+                    </div>
+
+                    <!-- Loader -->
+                    <div class="loader_container">
+                      <div class="loader" data-perc="0.95"></div>
+                      <div class="loader_content text-center">
+                        <div class="loader_title">awesomeness</div>
+                        <div class="loader_subtitle">Vestibulum est mattis effic.</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
 
-        <script src="/vit_portocv/static/js/jquery.min.js"></script>
-        <script src="/vit_portocv/static/js/jquery-migrate-3.0.1.min.js"></script>
-        <script src="/vit_portocv/static/js/popper.min.js"></script>
-        <script src="/vit_portocv/static/js/bootstrap.min.js"></script>
-        <script src="/vit_portocv/static/js/jquery.easing.1.3.js"></script>
-        <script src="/vit_portocv/static/js/jquery.waypoints.min.js"></script>
-        <script src="/vit_portocv/static/js/jquery.stellar.min.js"></script>
-        <script src="/vit_portocv/static/js/owl.carousel.min.js"></script>
-        <script src="/vit_portocv/static/js/jquery.magnific-popup.min.js"></script>
-        <script src="/vit_portocv/static/js/aos.js"></script>
-        <script src="/vit_portocv/static/js/jquery.animateNumber.min.js"></script>
-        <script src="/vit_portocv/static/js/scrollax.min.js"></script>
-        
-        <script src="/vit_portocv/static/js/main.js"></script>
-          
-        </body>
+        </div>
+      <div align='center'>
+        </div>
+
+      </div>
+
+      <script src="/vit_portocv/static/js/jquery-3.2.1.min.js"></script>
+      <script src="/vit_portocv/static/styles/bootstrap-4.1.2/popper.js"></script>
+      <script src="/vit_portocv/static/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+      <script src="/vit_portocv/static/plugins/greensock/TweenMax.min.js"></script>
+      <script src="/vit_portocv/static/plugins/greensock/TimelineMax.min.js"></script>
+      <script src="/vit_portocv/static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+      <script src="/vit_portocv/static/plugins/greensock/animation.gsap.min.js"></script>
+      <script src="/vit_portocv/static/plugins/greensock/ScrollToPlugin.min.js"></script>
+      <script src="/vit_portocv/static/plugins/progressbar/progressbar.js"></script>
+      <script src="/vit_portocv/static/plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
+      <script src="/vit_portocv/static/plugins/easing/easing.js"></script>
+      <script src="/vit_portocv/static/plugins/parallax-js-master/parallax.min.js"></script>
+      <script src="/vit_portocv/static/js/custom.js"></script>
+      </body>
       </html>
+
     </template>
 
     <template id="not_found">
